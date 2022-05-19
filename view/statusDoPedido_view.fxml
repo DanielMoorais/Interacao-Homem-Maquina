@@ -9,15 +9,15 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1018.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="584.0" prefWidth="858.0" styleClass="panel" stylesheets="@stylus.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <Label layoutX="372.0" layoutY="87.0" prefHeight="48.0" prefWidth="242.0" text="Status do pedido">
+      <Label layoutX="308.0" layoutY="73.0" prefHeight="48.0" prefWidth="242.0" text="Status do pedido" textFill="WHITE">
          <font>
             <Font name="System Bold" size="27.0" />
          </font>
       </Label>
       <ImageView fitHeight="48.0" fitWidth="54.0" layoutX="439.0" layoutY="172.0" pickOnBounds="true" preserveRatio="true" />
-      <HBox layoutX="307.0" layoutY="208.0" prefHeight="363.0" prefWidth="616.0">
+      <HBox layoutX="242.0" layoutY="155.0" prefHeight="363.0" prefWidth="616.0">
          <children>
             <VBox prefHeight="363.0" prefWidth="68.0" spacing="20.0">
                <children>
@@ -58,32 +58,32 @@
             </VBox>
             <VBox alignment="TOP_CENTER" prefHeight="284.0" prefWidth="264.0" spacing="27.0">
                <children>
-                  <Label prefHeight="31.0" prefWidth="255.0" text="Pedido recebido">
+                  <Label prefHeight="31.0" prefWidth="255.0" text="Pedido recebido" textFill="WHITE">
                      <font>
                         <Font name="System Bold" size="12.0" />
                      </font>
                   </Label>
-                  <Label prefHeight="31.0" prefWidth="255.0" text="Enviado para a transportadora">
+                  <Label prefHeight="31.0" prefWidth="255.0" text="Enviado para a transportadora" textFill="WHITE">
                      <font>
                         <Font name="System Bold" size="12.0" />
                      </font>
                   </Label>
-                  <Label prefHeight="31.0" prefWidth="255.0" text="Recebido pela transportadora">
+                  <Label prefHeight="31.0" prefWidth="255.0" text="Recebido pela transportadora" textFill="WHITE">
                      <font>
                         <Font name="System Bold" size="12.0" />
                      </font>
                   </Label>
-                  <Label prefHeight="31.0" prefWidth="255.0" text="Mercadoria em transito">
+                  <Label prefHeight="31.0" prefWidth="255.0" text="Mercadoria em transito" textFill="WHITE">
                      <font>
                         <Font name="System Bold" size="12.0" />
                      </font>
                   </Label>
-                  <Label prefHeight="31.0" prefWidth="255.0" text="Saiu para a entrega">
+                  <Label prefHeight="31.0" prefWidth="255.0" text="Saiu para a entrega" textFill="WHITE">
                      <font>
                         <Font name="System Bold" size="12.0" />
                      </font>
                   </Label>
-                  <Label prefHeight="31.0" prefWidth="255.0" text="Entrega realizada">
+                  <Label prefHeight="31.0" prefWidth="255.0" text="Entrega realizada" textFill="WHITE">
                      <font>
                         <Font name="System Bold" size="12.0" />
                      </font>

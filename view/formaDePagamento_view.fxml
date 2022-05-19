@@ -9,22 +9,22 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1018.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="499.0" prefWidth="780.0" styleClass="panel" stylesheets="@stylus.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <Label layoutX="353.0" layoutY="78.0" prefHeight="48.0" prefWidth="286.0" text="Forma de pagamento">
+      <Label layoutX="246.0" layoutY="35.0" prefHeight="48.0" prefWidth="286.0" text="Forma de pagamento" textFill="WHITE">
          <font>
             <Font name="System Bold" size="25.0" />
          </font>
       </Label>
-      <Button layoutX="459.0" layoutY="543.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="100.0" text="Confirmar" />
+      <Button layoutX="340.0" layoutY="385.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="100.0" text="Confirmar" textFill="WHITE" />
       <ImageView fitHeight="38.0" fitWidth="45.0" layoutX="7.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../images/formaDePagamento/back.png" />
          </image>
       </ImageView>
-      <VBox layoutX="353.0" layoutY="190.0" prefHeight="307.0" prefWidth="413.0" spacing="70.0">
+      <VBox layoutX="183.0" layoutY="89.0" prefHeight="307.0" prefWidth="413.0" spacing="70.0">
          <children>
-            <RadioButton mnemonicParsing="false" prefHeight="17.0" prefWidth="286.0" text="Boleto Bancário">
+            <RadioButton mnemonicParsing="false" prefHeight="17.0" prefWidth="286.0" text="Boleto Bancário" textFill="WHITE">
                <graphic>
                   <ImageView fitHeight="36.0" fitWidth="45.0" pickOnBounds="true" preserveRatio="true">
                      <image>
@@ -32,8 +32,11 @@
                      </image>
                   </ImageView>
                </graphic>
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
             </RadioButton>
-            <RadioButton mnemonicParsing="false" prefHeight="17.0" prefWidth="286.0" text="Cartão de Débito / Crédito">
+            <RadioButton mnemonicParsing="false" prefHeight="17.0" prefWidth="286.0" text="Cartão de Débito / Crédito" textFill="WHITE">
                <graphic>
                   <ImageView fitHeight="38.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
                      <image>
@@ -41,8 +44,11 @@
                      </image>
                   </ImageView>
                </graphic>
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
             </RadioButton>
-            <RadioButton mnemonicParsing="false" prefHeight="17.0" prefWidth="286.0" text="Pix">
+            <RadioButton mnemonicParsing="false" prefHeight="17.0" prefWidth="286.0" text="Pix" textFill="WHITE">
                <graphic>
                   <ImageView fitHeight="57.0" fitWidth="37.0" pickOnBounds="true" preserveRatio="true">
                      <image>
@@ -50,6 +56,9 @@
                      </image>
                   </ImageView>
                </graphic>
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
             </RadioButton>
          </children>
       </VBox>

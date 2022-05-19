@@ -11,15 +11,14 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1018.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1018.0" styleClass="panel" stylesheets="@stylus.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <Label layoutX="402.0" layoutY="84.0" prefHeight="51.0" prefWidth="195.0" text="Conferir pedido">
+      <Label layoutX="402.0" layoutY="84.0" prefHeight="51.0" prefWidth="195.0" text="Conferir pedido" textFill="WHITE">
          <font>
             <Font name="System Bold" size="21.0" />
          </font>
       </Label>
-      <HBox layoutX="219.0" layoutY="152.0" prefHeight="529.0" prefWidth="640.0">
+      <HBox layoutX="180.0" layoutY="151.0" prefHeight="417.0" prefWidth="640.0">
          <children>
             <VBox prefHeight="511.0" prefWidth="116.0" spacing="30.0">
                <children>
@@ -40,27 +39,27 @@
                   </ImageView>
                </children>
             </VBox>
-            <VBox prefHeight="529.0" prefWidth="510.0" spacing="40.0">
+            <VBox prefHeight="448.0" prefWidth="510.0" spacing="40.0">
                <children>
                   <VBox prefHeight="46.0" prefWidth="435.0">
                      <children>
-                        <Label prefHeight="11.0" prefWidth="469.0" text="Geladeira Brastemp BRM44HK Frost Free" />
-                        <Label prefHeight="0.0" prefWidth="486.0" text="Qtd: 1" />
-                        <Label prefHeight="0.0" prefWidth="618.0" text="Valor:  RS: 3099,99" />
+                        <Label prefHeight="11.0" prefWidth="469.0" text="Geladeira Brastemp BRM44HK Frost Free" textFill="WHITE" />
+                        <Label prefHeight="0.0" prefWidth="486.0" text="Qtd: 1" textFill="WHITE" />
+                        <Label prefHeight="0.0" prefWidth="618.0" text="Valor:  RS: 3099,99" textFill="WHITE" />
                      </children>
                   </VBox>
                   <VBox prefHeight="23.0" prefWidth="435.0">
                      <children>
-                        <Label prefHeight="0.0" prefWidth="435.0" text="Carro Elétrico Infantil 12V Rosa Mercedes Benz AMG" />
-                        <Label prefHeight="17.0" prefWidth="585.0" text="Qtd: 29" />
-                        <Label prefHeight="17.0" prefWidth="691.0" text="Valor:  RS: 52199,71" />
+                        <Label prefHeight="0.0" prefWidth="435.0" text="Carro Elétrico Infantil 12V Rosa Mercedes Benz AMG" textFill="WHITE" />
+                        <Label prefHeight="17.0" prefWidth="585.0" text="Qtd: 29" textFill="WHITE" />
+                        <Label prefHeight="17.0" prefWidth="691.0" text="Valor:  RS: 52199,71" textFill="WHITE" />
                      </children>
                   </VBox>
                   <VBox prefHeight="23.0" prefWidth="435.0">
                      <children>
-                        <Label prefHeight="0.0" prefWidth="435.0" text="Água desidratada  100% Orgânica! Nova fórmula! essencial Camping" />
-                        <Label prefHeight="17.0" prefWidth="585.0" text="Qtd: 1" />
-                        <Label prefHeight="17.0" prefWidth="691.0" text="Valor:  RS: 79,99" />
+                        <Label prefHeight="0.0" prefWidth="435.0" text="Água desidratada  100% Orgânica! Nova fórmula! essencial Camping" textFill="WHITE" />
+                        <Label prefHeight="17.0" prefWidth="585.0" text="Qtd: 1" textFill="WHITE" />
+                        <Label prefHeight="17.0" prefWidth="691.0" text="Valor:  RS: 79,99" textFill="WHITE" />
                      </children>
                   </VBox>
                </children>
@@ -68,7 +67,7 @@
                   <Insets top="30.0" />
                </padding>
             </VBox>
-            <Slider orientation="VERTICAL" prefHeight="311.0" prefWidth="17.0" value="100.0" />
+            <Slider orientation="VERTICAL" prefHeight="510.0" prefWidth="17.0" value="100.0" />
          </children>
       </HBox>
       <ImageView fitHeight="41.0" fitWidth="39.0" layoutX="7.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
@@ -76,6 +75,6 @@
             <Image url="@../images/conferirPedido/back.png" />
          </image>
       </ImageView>
-      <Button layoutX="410.0" layoutY="681.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="100.0" text="Confirmar" />
+      <Button layoutX="409.0" layoutY="586.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="100.0" text="Confirmar" textFill="WHITE" />
    </children>
 </AnchorPane>
