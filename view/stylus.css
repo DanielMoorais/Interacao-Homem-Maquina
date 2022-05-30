@@ -1,0 +1,10 @@
+.button{
+    -fx-padding: 10px 20px;
+    -fx-background-color: rgb(65, 133, 193); 
+}
+.button:hover{
+    -fx-background-color: rgb(146, 146, 153);
+}
+.panel{
+    -fx-background-color: rgb(83, 83, 132);
+}
