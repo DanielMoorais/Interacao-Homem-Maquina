@@ -42,7 +42,7 @@ public class EnderecoDeEntrega implements Initializable {
 
     confirmButton.setOnAction(event -> {
       try {
-        root = FXMLLoader.load(getClass().getResource("/view/statusDoPedido_view.fxml"));
+        root = FXMLLoader.load(getClass().getResource("/view/FormaDePagamento_view.fxml"));
         stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
         scene = new Scene(root);
         stage.setScene(scene);

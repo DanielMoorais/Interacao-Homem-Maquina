@@ -9,20 +9,20 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="499.0" prefWidth="780.0" styleClass="panel" stylesheets="@stylus.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" styleClass="panel" stylesheets="@stylus.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.FormaDePagamento">
    <children>
-      <Label layoutX="246.0" layoutY="35.0" prefHeight="48.0" prefWidth="286.0" text="Forma de pagamento" textFill="WHITE">
-         <font>
-            <Font name="System Bold" size="25.0" />
-         </font>
-      </Label>
-      <Button layoutX="340.0" layoutY="385.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="100.0" text="Confirmar" textFill="WHITE" />
-      <ImageView fitHeight="38.0" fitWidth="45.0" layoutX="7.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="backImg" fitHeight="38.0" fitWidth="48.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../images/formaDePagamento/back.png" />
          </image>
       </ImageView>
-      <VBox layoutX="183.0" layoutY="89.0" prefHeight="307.0" prefWidth="413.0" spacing="70.0">
+      <Label alignment="CENTER" layoutX="246.0" layoutY="35.0" prefHeight="48.0" prefWidth="286.0" text="Forma de pagamento" textFill="WHITE" textOverrun="CENTER_WORD_ELLIPSIS">
+         <font>
+            <Font name="System Bold" size="23.0" />
+         </font>
+      </Label>
+      <Button fx:id="confirmButton" layoutX="350.0" layoutY="528.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="100.0" text="Confirmar" textFill="WHITE" />
+      <VBox layoutX="194.0" layoutY="147.0" prefHeight="307.0" prefWidth="413.0" spacing="70.0">
          <children>
             <RadioButton mnemonicParsing="false" prefHeight="17.0" prefWidth="286.0" text="Boleto Bancário" textFill="WHITE">
                <graphic>

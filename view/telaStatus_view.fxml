@@ -6,30 +6,30 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="641.0" prefWidth="892.0" styleClass="panel" stylesheets="@stylus.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.TelaStatus">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" styleClass="panel" stylesheets="@stylus.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.TelaStatus">
    <children>
-      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="70.0" layoutY="13.0" prefHeight="84.0" prefWidth="752.0" text="O Status do pedido é:" textFill="WHITE">
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="24.0" layoutY="19.0" prefHeight="84.0" prefWidth="752.0" text="O Status do pedido é:" textFill="WHITE" textOverrun="CENTER_WORD_ELLIPSIS">
          <font>
-            <Font name="System Bold" size="32.0" />
+            <Font name="System Bold" size="23.0" />
          </font>
       </Label>
       <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="74.0" layoutY="252.0" pickOnBounds="true" preserveRatio="true" />
-      <ImageView fitHeight="456.0" fitWidth="442.0" layoutX="228.0" layoutY="133.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="456.0" fitWidth="442.0" layoutX="182.0" layoutY="108.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../images/telaStatus/brasil.png" />
          </image>
       </ImageView>
-      <ImageView fx:id="backImg" fitHeight="48.0" fitWidth="41.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="backImg" fitHeight="38.0" fitWidth="48.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../images/telaStatus/back.png" />
          </image>
       </ImageView>
-      <ImageView fitHeight="30.0" fitWidth="31.0" layoutX="556.0" layoutY="321.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="30.0" fitWidth="31.0" layoutX="505.0" layoutY="305.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../images/telaStatus/pinPoint.png" />
          </image>
       </ImageView>
-      <Label layoutX="608.0" layoutY="340.0" prefHeight="41.0" prefWidth="140.0" text="Seu pedido esta aqui" textFill="WHITE">
+      <Label layoutX="564.0" layoutY="317.0" prefHeight="41.0" prefWidth="140.0" text="Seu pedido está aqui" textFill="WHITE">
          <font>
             <Font name="System Bold" size="12.0" />
          </font></Label>
