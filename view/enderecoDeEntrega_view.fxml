@@ -8,7 +8,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="477.0" prefWidth="856.0" styleClass="panel" stylesheets="@stylus.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="477.0" prefWidth="856.0" styleClass="panel" stylesheets="@stylus.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.EnderecoDeEntrega">
    <children>
       <TextField layoutX="43.0" layoutY="147.0" prefHeight="26.0" prefWidth="756.0" />
       <Label alignment="CENTER" contentDisplay="CENTER" layoutX="213.0" layoutY="43.0" prefHeight="97.0" prefWidth="430.0" text="Estamos quase lá!" textAlignment="CENTER" textFill="WHITE" textOverrun="CENTER_WORD_ELLIPSIS">
@@ -50,8 +50,8 @@
             <Font name="System Bold" size="12.0" />
          </font></Label>
       <TextField layoutX="305.0" layoutY="252.0" prefHeight="25.0" prefWidth="64.0" />
-      <Button layoutX="382.0" layoutY="371.0" mnemonicParsing="false" text="Confirmar" textFill="WHITE" />
-      <ImageView fitHeight="45.0" fitWidth="36.0" layoutX="7.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+      <Button fx:id="confirmButton" layoutX="371.0" layoutY="370.0" mnemonicParsing="false" text="Confirmar" textFill="WHITE" />
+      <ImageView fx:id="backImg" fitHeight="45.0" fitWidth="36.0" layoutX="7.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../images/enderecoDeEntrega/back.png" />
          </image>
